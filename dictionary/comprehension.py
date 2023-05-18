@@ -14,3 +14,13 @@ num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
 even_odd = {num: ("even" if num % 2 == 0 else "odd") for num in num_list}
 print(even_odd)
 print({key.upper(): values * 2 for key, values in numbers.items()})
+list1 = ["CA", "NJ", "RI"]
+list2 = ["California", "New Jersey", "Rhode Island"]
+
+list_combo = dict(zip(list1, list2))
+print(list_combo)
+answer = {char: 0 for char in 'aeiou'}
+answer = dict.fromkeys("aeiou", 0)
+person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
+print({k: v for k, v in person})
+print(dict(person))

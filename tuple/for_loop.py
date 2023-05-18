@@ -1,6 +1,7 @@
-# list = []
-# dict = {}
-# tuple = ()
+# list = [] or list()
+# dict = {} or dict()
+# tuple = () or tuple()
+# set = {} or set()
 
 # tuple are immutable
 # tuple are faster than list
