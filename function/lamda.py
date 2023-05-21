@@ -9,7 +9,7 @@ def sort_products(product):
     return product[1]
 
 
-# products.sort(key=sort_products)
-# lmada function/ anonymous function (lambda parameter:expression)
+products.sort(key=sort_products)
+# lmada function/ anonymous function (lambda paramater:expression)
 products.sort(key=lambda product: product[1])
 print(products)
