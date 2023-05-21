@@ -23,3 +23,7 @@ print(math_students & biology_students)
 # union
 print(math_students.union(biology_students))
 print(math_students | biology_students)
+#
+print(math_students - biology_students)
+#
+print(math_students ^ biology_students)

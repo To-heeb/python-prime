@@ -10,6 +10,7 @@
 # 		print(f"{a} divided by {b} is {result}")
 
 def divide(a, b):
+    '''Divide a by b'''
     try:
         result = a/b
     except (ZeroDivisionError, TypeError) as err:
